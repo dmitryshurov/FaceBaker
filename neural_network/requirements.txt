@@ -1,0 +1,4 @@
+tensorflow-gpu==2.1.0
+tensorflow-estimator==2.1.0  # This must match the version of tensorflow-gpu above
+pydot
+graphviz
