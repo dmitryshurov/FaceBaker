@@ -15,3 +15,21 @@ conda create --name FaceBaker -y python=3.7
 conda activate FaceBaker
 conda install -y --file requirements.txt
 ```
+
+## Run
+
+Before running the scripts you must activate your Conda environment from the Conda Prompt:
+
+```
+conda activate FaceBaker
+```
+
+The module contains the following Python runnable scripts:
+
+* [plot.py](plot.py) - plot the model architecture to a `model.png` file. Very handy to examine the model structure
+
+
+## Code Structure
+
+* [face_baker](face_baker) folder contains an API for building FaceBaker-related apps
+* [current](.) folder contains runnable scripts (apps) that you cans use out-of-the-box
